@@ -24,7 +24,8 @@ const About = () => {
 
       <section className="mx-auto :max-w-6xl px-4 w-[50%] py-10">
         <h2 className="text-2xl font-semibold">Skills</h2>
-        <div className="  grid   grid-cols-2   gap-1.5sm:flex-wrap gap-3 mt-4">
+        <div className="  grid   grid-cols-2   gap-1.5
+        sm:flex-wrap gap-3 mt-4">
           {skills.map((s) => (
             <span key={s.label} className="inline-flex items-center gap-2 rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-700 ring-1 ring-slate-200">
               <span className="h-2 w-2 rounded-full bg-blue-600" />
