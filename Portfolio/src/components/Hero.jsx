@@ -17,7 +17,7 @@ const Hero = () => {
           <a href="#projects" className="inline-flex items-center rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
             View Projects
           </a>
-          <a href="#contact" className="inline-flex items-center rounded-md border border-blue-600 px-4 py-2 text-blue-700 hover:bg-blue-50">
+          <a href="/contact" className="inline-flex items-center rounded-md border border-blue-600 px-4 py-2 text-blue-700 hover:bg-blue-50">
             Contact
           </a>
         </div>
