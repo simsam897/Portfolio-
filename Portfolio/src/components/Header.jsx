@@ -11,7 +11,7 @@ export default function Header() {
         <ul className="flex items-center gap-6 text-sm">
           <li><a href="#home" className="hover:text-blue-600">Home</a></li>
           <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
-          <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
+          <li><a href="/contact" className="hover:text-blue-600">Contact</a></li>
         </ul>
       </nav>
 
