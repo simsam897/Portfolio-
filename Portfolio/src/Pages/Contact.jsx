@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <>
-      <section id="contact" className="w-full m-auto max-w-3xl mb-12">
+      <section id="contact" className="w-full m-auto max-w-3xl my-12">
         <h2 className="text-2xl font-semibold mb-6 ml-10">Contact</h2>
         <form className="flex flex-col space-y-4 ml-10 mr-10" ref={form} onSubmit={sendEmail}>
           <input
@@ -66,7 +66,7 @@ const Contact = () => {
 
       {/* Contact Links */}
       <section className="w-full m-auto max-w-3xl ">
-        <h2 className="text-2xl font-semibold mb-4 ml-10">Contact</h2>
+        <h2 className="text-2xl font-semibold mb-4 ml-10">Other options</h2>
         <p className="text-lg mb-6 text-center">Let’s build something togather.</p>
         <div className="flex flex-wrap gap-4 mb-6 justify-center">
           <a

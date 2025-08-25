@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header'
+
 import Hero from './components/Hero'
 import About from './components/About'
 import Projects from './components/Projects'
 import Education from './components/Education'
-import Footer from './components/Footer'
+
+import Certification from './components/Certification'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
       <About />
       <Projects />
       <Education />
-
+      <Certification />
 
     </>
   )
