@@ -13,12 +13,14 @@ function App() {
 
   return (
     <>
+      <div className='overflow-auto'>
+        <Hero />
+        <About />
+        <Projects />
+        <Education />
+        <Certification />
+      </div>
 
-      <Hero />
-      <About />
-      <Projects />
-      <Education />
-      <Certification />
 
     </>
   )

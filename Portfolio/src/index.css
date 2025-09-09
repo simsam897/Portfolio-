@@ -2,4 +2,20 @@
 
 @theme {
   --breakpoint-lgx: 990px;
+
+
+
+  @keyframes slideFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  --animate-slide-from-left: slideFromLeft 1s ease forwards;
 }
