@@ -34,30 +34,30 @@ const Contact = () => {
   return (
     <>
       <section id="contact" className="w-full m-auto max-w-3xl my-12">
-        <h2 className="text-2xl font-semibold mb-6 ml-10">Contact</h2>
-        <form className="flex flex-col space-y-4 ml-10 mr-10" ref={form} onSubmit={sendEmail}>
+        <h2 className="text-2xl  font-semibold mb-6 ml-10">Contact</h2>
+        <form className="flex flex-col space-y-4  ml-10 mr-10" ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             placeholder="Name"
             name='user_name'
-            className="w-full p-3 rounded-md border border-gray-300 bg-white outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md border border-gray-500 bg-white outline-none focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="email"
             name='user_email'
             placeholder="Email"
-            className="w-full p-3 rounded-md border border-gray-300 bg-white  outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md border border-gray-500 bg-white  outline-none focus:ring-2 focus:ring-blue-500"
           />
           <textarea
             placeholder="Message"
             name='message'
             rows="4"
-            className="w-full p-3 rounded-md border border-gray-300 bg-white  outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 rounded-md border border-gray-500 bg-white  outline-none focus:ring-2 focus:ring-blue-500"
           />
           <button
             type="submit"
             value='Send'
-            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-md hover:bg-blue-700 transition"
+            className="px-6 py-3 self-center bg-blue-600  text-white font-medium rounded-md hover:bg-blue-700 transition"
           >
             Send Message
           </button>

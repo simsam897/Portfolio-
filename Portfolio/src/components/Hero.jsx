@@ -17,15 +17,16 @@ const Hero = () => {
           <a href="#projects" className="inline-flex items-center rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
             View Projects
           </a>
-          <a href="/contact" className="inline-flex items-center rounded-md border border-blue-600 px-4 py-2 text-blue-700 hover:bg-blue-50">
+          <a href="#contact" className="inline-flex items-center rounded-md border border-blue-600 px-4 py-2 text-blue-700 hover:bg-blue-50">
             Contact
           </a>
         </div>
       </div>
       {/* // ProfilePicture  */}
+      {/* bg-gradient-to-b from-blue-300 to-blue-600 */}
       <div className="flex justify-end">
-        <div className="h-64 w-64 rounded-3xl bg-gradient-to-b from-blue-300 to-blue-600 p-1">
-          <img src="WhatsApp Image 2025-04-02 at 06.53.23_acc77da1.jpg" alt="Avatar" className=" p-10 w-full rounded-b-2xl  object-cover " />
+        <div className="h-64 w-64 rounded-3xl  p-1 bg-gradient-to-b from-blue-300 to-blue-600">
+          <img src="Gemini_Generated_Image_h5maqfh5maqfh5ma.png" alt="Avatar" className=" p-10  rounded-b-2xl   object-cover  " />
         </div>
       </div>
     </section>

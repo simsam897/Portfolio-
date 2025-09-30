@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Education from './components/Education'
 
 import Certification from './components/Certification'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Projects />
         <Education />
         <Certification />
+        <Contact />
       </div>
 
 
