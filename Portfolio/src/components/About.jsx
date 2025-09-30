@@ -11,10 +11,17 @@ const About = () => {
     { label: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" /> },
     { label: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { label: "API Integration", icon: <MdApi className="text-green-600" /> },
+    { label: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" /> },
+    { label: "Git", icon: <FaGitAlt className="text-orange-600" /> },
+    { label: "API Integration", icon: <MdApi className="text-green-600" /> },
+    { label: "API Integration", icon: <MdApi className="text-green-600" /> },
+    { label: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" /> },
+    { label: "Git", icon: <FaGitAlt className="text-orange-600" /> },
+    { label: "API Integration", icon: <MdApi className="text-green-600" /> },
   ];
 
   return (
-    <div className="max-w-6xl flex flex-row mx-auto gap-10">
+    <div className="max-w-6xl flex flex-col justify-center mx-auto gap-10  md-about:flex-row  md-about:items-start   ">
       {/* About Section */}
       <section className="mx-auto max-w-4xl px-4 py-10 w-[50%]">
         <h2 className="text-2xl font-semibold">About</h2>
@@ -26,9 +33,9 @@ const About = () => {
       </section>
 
       {/* Skills Section */}
-      <section className="mx-auto max-w-4xl px-4 py-10 w-[50%] overflow-auto">
+      <section className="mx-auto max-w-4xl px-4 py-10 w-[50%]  overflow-auto">
         <h2 className="text-2xl font-semibold">Skills</h2>
-        <div className="flex flex-wrap content-start overflow-auto gap-3 mt-4">
+        <div className="md:flex md:flex-wrap md:content-start overflow-x-visible  gap-3 mt-4    ">
           {skills.map((s) => (
             <span
               key={s.label}

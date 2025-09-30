@@ -2,6 +2,8 @@
 
 @theme {
   --breakpoint-lgx: 990px;
+  --breakpoint-md-about: 800px;
+  --breakpoint-md-hero: 755px;
 
 
 
