@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
 
-    <section id="home" className="mx-auto max-w-6xl px-4 py-12 md-hero:flex md-hero:flex-row md-hero:justify-between md-hero:items-center   gap-10  animate-slide-from-left flex flex-col justify-center items-center  md-hero:">
+    <section id="home" className="mx-auto max-w-6xl px-4 py-12 md-hero:flex md-hero:flex-row md-hero:justify-between md-hero:items-center   gap-10  animate-slide-from-left flex flex-col justify-center items-center">
       {/* text-section  */}
       <div className='animate-slide-from-left'>
         <div className="inline-flex h-6 w-6 items-center justify-center rounded border text-xs font-semibold mb-6">SS</div>
