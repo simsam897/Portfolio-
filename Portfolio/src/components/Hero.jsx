@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../index.css'
 const Hero = () => {
   return (
 
@@ -24,11 +24,22 @@ const Hero = () => {
       </div>
       {/* // ProfilePicture  */}
       {/* bg-gradient-to-b from-blue-300 to-blue-600 */}
-      <div className="flex justify-end">
+      {/* <div className="flex justify-end">
         <div className="h-64 w-64 rounded-3xl  p-1 bg-gradient-to-b from-blue-300 to-blue-600">
           <img src="Gemini_Generated_Image_h5maqfh5maqfh5ma.png" alt="Avatar" className=" p-10  rounded-b-2xl   object-cover  " />
         </div>
+      </div> */}
+
+      <div className="flex justify-end">
+        <div className="h-64 w-64 rounded-3xl p-1 bg-gradient-to-b from-blue-300 to-blue-600">
+          <img
+            src="Gemini_Generated_Image_h5maqfh5maqfh5ma.png"
+            alt="Avatar"
+            className="h-full w-full rounded-3xl object-cover scale-100"
+          />
+        </div>
       </div>
+
     </section>
 
   )

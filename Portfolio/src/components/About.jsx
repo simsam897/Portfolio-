@@ -11,13 +11,7 @@ const About = () => {
     { label: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" /> },
     { label: "Git", icon: <FaGitAlt className="text-orange-600" /> },
     { label: "API Integration", icon: <MdApi className="text-green-600" /> },
-    { label: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" /> },
-    { label: "Git", icon: <FaGitAlt className="text-orange-600" /> },
-    { label: "API Integration", icon: <MdApi className="text-green-600" /> },
-    { label: "API Integration", icon: <MdApi className="text-green-600" /> },
-    { label: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-500" /> },
-    { label: "Git", icon: <FaGitAlt className="text-orange-600" /> },
-    { label: "API Integration", icon: <MdApi className="text-green-600" /> },
+
   ];
 
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 export default function Education() {
   const timeline = [
-    { year: "2020", title: "B.Sc. in Computer Science", institution: "ABC University" },
-    { year: "2022", title: "Frontend Developer Internship", institution: "XYZ Company" },
-    { year: "2023", title: "React.js Specialization", institution: "Online Course" },
+    { year: "2018-2021", title: "Bacheloer's of computer applications", institution: "Ludhiana group of colleges , chowki mann" },
+    { year: "2021-2023", title: "Master of computer applications", institution: "Ludhiana group of colleges , chowki mann" },
+    { year: "2023-may2024", title: "Web development course", institution: "Lamrin tech sills university , Ropar" },
   ];
 
   return (
@@ -12,7 +12,7 @@ export default function Education() {
       <div className="border-l-2 border-gray-300 dark:border-gray-700 pl-6">
         {timeline.map((item, index) => (
           <div key={index} className="mb-10 relative">
-            <span className=" sm:relative sm:block sm:mb-2 lgx:ml-[-5rem] text-lg font-semibold text-gray-700 dark:text-gray-300">
+            <span className=" sm:relative sm:block sm:mb-2  text-lg font-semibold text-blue-950 ">
               {item.year}
             </span>
             <div className="bg-[#85BEFF] p-4 rounded-lg shadow-md">

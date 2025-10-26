@@ -4,21 +4,21 @@ const projects = [
   {
     title: "Portfolio Website",
     description:
-      "A personal portfolio built with React and Tailwind CSS showcasing projects and blogs.",
+      "A personal portfolio built with React and Tailwind CSS showcasing projects , my education details , expericence and contact me with multiple ways.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJGddJ1Z_ixOzZa9q11y483VyRGQ6toS6EA&s",
     link: "#",
   },
   {
-    title: "E-commerce Store",
+    title: "Blog site",
     description:
-      "Full-featured e-commerce store using React, Redux, and Stripe for payments.",
+      "This Blog site platform userful in createing blog  easily by user and admin . Admin can delete any user or post",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJGddJ1Z_ixOzZa9q11y483VyRGQ6toS6EA&s",
     link: "#",
   },
   {
-    title: "Chat App",
+    title: "Library management system",
     description:
-      "Real-time chat application with WebSocket and Firebase authentication.",
+      "RLinrary managment system which usefull to mange main tasks that are performed by librarian like adding new book , delete book , add new member , delete user and user can perform tasks like search a book  , borrow  a book .",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiJGddJ1Z_ixOzZa9q11y483VyRGQ6toS6EA&s",
     link: "#",
   },
@@ -44,15 +44,15 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className=" bg-[#b1c5db] rounded-xl  overflow-hidden "
+              className=" border-1 rounded-xl  overflow-hidden "
             >
               <img
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover bg-white "
               />
-              <div className="p-6 bg-[#85BEFF]">
-                <h3 className="text-xl font-semibold  dark:text-white mb-2">
+              <div className="p-6 ">
+                <h3 className="text-xl font-semibold text-blue-600  mb-2">
                   {project.title}
                 </h3>
                 <p className=" mb-4">
