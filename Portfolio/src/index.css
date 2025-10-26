@@ -45,5 +45,5 @@
   --animate-slide-from-left: slideFromLeft 1s ease forwards;
 }
 
-/* ✅ Add this part */
-@custom-variant md-hero (width >=755px);
+
+@custom-variant md-hero (width >= 755px);
