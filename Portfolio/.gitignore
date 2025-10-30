@@ -21,3 +21,8 @@ rad.json
 #Test results file
 TestResults.xml
 *.env
+
+*/node_modules
+
+# build output
+*/dist
